@@ -10,6 +10,7 @@
   "keywords": [],
   "author": "NodeSource",
   "license": "ISC",
+  "repository": "git@github.com:juanarbol/unit-conversion-test.git",
   "devDependencies": {
     "@types/node": "^15.3.0",
     "tsc": "^2.0.3",
