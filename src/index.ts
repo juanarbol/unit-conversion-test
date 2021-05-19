@@ -1,4 +1,4 @@
-type TempetureTypes = 'F' | 'C'
+export type TempetureTypes = 'F' | 'C'
 
 export function temperuteConversion (temperature: number, desiredUnit: TempetureTypes): string {
   let answer = 0;
