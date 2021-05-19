@@ -3,9 +3,10 @@
   "version": "1.0.1",
   "description": "",
   "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
-    "start": "npx tsc && node lib/test.js",
-    "postinstall": "npx tsc"
+    "prepublish": "tsc",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "NodeSource",
