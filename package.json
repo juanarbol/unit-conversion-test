@@ -8,7 +8,8 @@
     "build": "tsc"
   },
   "files": [
-    "lib"
+    "lib",
+    "src"
   ],
   "keywords": [],
   "author": "NodeSource",
